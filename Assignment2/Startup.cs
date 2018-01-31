@@ -22,6 +22,7 @@ namespace Assignment2
 
         public IConfiguration Configuration { get; }
 
+        // Test
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
