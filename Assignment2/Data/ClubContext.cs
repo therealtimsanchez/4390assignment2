@@ -12,6 +12,7 @@ namespace Assignment2.Data
         public ClubContext(DbContextOptions<ClubContext> options) : base(options)
         {
         }
+        //hghg
 
         public DbSet<Member> Members { get; set; }
         public DbSet<Client> Clients { get; set; }
