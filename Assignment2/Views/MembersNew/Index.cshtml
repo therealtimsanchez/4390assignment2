@@ -4,11 +4,19 @@
     ViewData["Title"] = "Index";
 }
 
-<h2>Members of the Coding Club</h2>
+<div class="alert alert-warning" role="alert"><h2 style="text-align:center;">Members of the Coding Club</h2></div>
 
 <p>
     <a asp-action="Create">Add a new member to the Coding Club</a>
 </p>
+<br />
+
+<p>
+    <a asp-action="Index" asp-controller="Clients">Click here to see avaiable clients</a>
+</p>
+
+
+
 <table class="table">
     <thead>
         <tr>

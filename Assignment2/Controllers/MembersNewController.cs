@@ -73,7 +73,8 @@ namespace Assignment2.Controllers
                 return NotFound();
             }
 
-            var member = await _context.Members.SingleOrDefaultAsync(m => m.MemberID == id);
+            var member = await _context.Members
+                .SingleOrDefaultAsync(m => m.MemberID == id);
             if (member == null)
             {
                 return NotFound();
